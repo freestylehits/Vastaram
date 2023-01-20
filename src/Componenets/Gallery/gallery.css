@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container .con2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 15px auto;
+}
+.container .con2 button {
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: large;
+  padding: 3px 8px;
+}
+.container .mg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container .mg .maingal {
+  display: flex;
+  height: 435px;
+  width: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: goldenrod;
+  margin: 10px 30px;
+  border-radius: 30px;
+}
+.container .mg .maingal img {
+  height: 200px;
+  width: 200px;
+}
+.container .mg .maingal p {
+  color: white;
+}
+.container .mg .maingal .h8 {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .mg .maingal .h8 button {
+  font-size: large;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=gallery.css.map */

@@ -1,0 +1,22 @@
+.mf {
+  display: flex;
+  justify-content: space-around;
+}
+.mf .one {
+  width: 20%;
+}
+.mf .one p {
+  color: white;
+}
+.mf .two {
+  width: 20%;
+}
+.mf .two p {
+  color: white;
+}
+.mf .three {
+  width: 20%;
+}
+.mf .three p {
+  color: white;
+}/*# sourceMappingURL=footer.css.map */

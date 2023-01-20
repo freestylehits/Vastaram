@@ -1,0 +1,61 @@
+.mct {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .maincart {
+        background-color: goldenrod;
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        padding: 5px 0px;
+        align-items: center;
+
+        p {
+            color: white;
+        }
+
+        h3 {
+            color: white;
+        }
+
+        img {
+            height: 70px;
+            width: 70px;
+        }
+
+        .inner {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 10%;
+
+            button {
+                background-color: black;
+                color: white;
+                cursor: pointer;
+            }
+
+        }
+
+        .del {
+            background-color: red;
+            border-radius: 10px;
+            color: white;
+            border: none;
+            font-size: large;
+            padding: 5px 5px;
+            cursor: pointer;
+        }
+    }
+}
+
+h1 {
+    // margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
